@@ -3,8 +3,8 @@ import json
 
 
 class File(Enum):
-    SETTINGS = 'settings.json'
-    EFFECTS = 'effects.json'
+    SETTINGS = 'config/settings.json'
+    EFFECTS = 'config/effects.json'
 
 
 class Filemanager:

@@ -1,0 +1,11 @@
+services:
+  lcnanoleaf:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: lcnanoleaf
+    volumes:
+      - ./config:/app/config
+    ports:
+      - 8095:8080
+    restart: unless-stopped
